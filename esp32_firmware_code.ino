@@ -55,8 +55,8 @@
  * Note: Timer API changed significantly in Core 3.x
  */
 
-#include 
-#include   // Built-in servo library for ESP32
+#include <Arduino.h>
+#include <Servo.h>  
 
 // ============================================================================
 // HARDWARE CONFIGURATION
